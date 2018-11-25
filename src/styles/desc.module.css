@@ -1,0 +1,35 @@
+@media(min-width: 850px) {
+    .desc {
+        flex: 1;
+       
+    }
+    p {
+        text-align: center;
+        padding-top: 40px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .icons {
+        flex: 1;
+    }
+}
+
+.desc p {
+        padding: 20px;
+        text-align: center;
+}
+
+.main {
+    margin-top: 165px;
+}
+
+
+@media(min-width: 850px) {
+    .main {
+        width: 100%;
+        padding: 0.3em 4.2em;
+        display: flex;
+        flex: 2;
+    }
+}

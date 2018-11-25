@@ -1,0 +1,65 @@
+.headerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    background: rgba(15, 32, 39, 1);
+    background: -moz-linear-gradient(left, rgba(15, 32, 39, 1) 0%, rgba(32, 58, 67, 1) 52%, rgba(44, 83, 100, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(15, 32, 39, 1)), color-stop(52%, rgba(32, 58, 67, 1)), color-stop(100%, rgba(44, 83, 100, 1)));
+    background: -webkit-linear-gradient(left, rgba(15, 32, 39, 1) 0%, rgba(32, 58, 67, 1) 52%, rgba(44, 83, 100, 1) 100%);
+    background: -o-linear-gradient(left, rgba(15, 32, 39, 1) 0%, rgba(32, 58, 67, 1) 52%, rgba(44, 83, 100, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(15, 32, 39, 1) 0%, rgba(32, 58, 67, 1) 52%, rgba(44, 83, 100, 1) 100%);
+    background: linear-gradient(to right, rgba(15, 32, 39, 1) 0%, rgba(32, 58, 67, 1) 52%, rgba(44, 83, 100, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2027', endColorstr='#2c5364', GradientType=1);
+    color: #cfcfcf;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.bodyMain__title {
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top: -140px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Montserrat';
+    margin-bottom: 10px;
+    color: #cfcfcf;
+}
+
+.titles p {
+    font-size: 1.2em;
+    margin: 8px 0;
+    line-height: 1;
+}
+.titles h1 {
+    color: #cff09e;
+    font-weight: 900;
+    font-size: 5.5em;
+    font-family: 'Montserrat';
+    margin: 0 0;
+    line-height: 1;
+}
+
+.titles h4 {
+    font-size: 1.3em;
+    margin: 0 0;
+    line-height: 1;
+}
+
+@media(max-width: 850px) {
+    .titles {
+        display: none;
+    }
+
+}
