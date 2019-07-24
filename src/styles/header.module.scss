@@ -35,31 +35,31 @@
     font-family: 'Montserrat';
     margin-bottom: 10px;
     color: #cfcfcf;
+    p {
+        font-size: 1.2em;
+        margin: 1px 0;
+        line-height: 1;
+        text-align: left;
+    }
+    h1 {
+        color: #cff09e;
+        font-weight: 900;
+        font-size: 5.5em;
+        font-family: 'Montserrat';
+        margin: 0 0;
+        line-height: 1;
+    }
+    h4 {
+        font-size: 1.3em;
+        margin: 0 0;
+        line-height: 1;
+        color: #192f37;
+    }
 }
 
-.titles p {
-    font-size: 1.2em;
-    margin: 8px 0;
-    line-height: 1;
-}
-.titles h1 {
-    color: #cff09e;
-    font-weight: 900;
-    font-size: 5.5em;
-    font-family: 'Montserrat';
-    margin: 0 0;
-    line-height: 1;
-}
-
-.titles h4 {
-    font-size: 1.3em;
-    margin: 0 0;
-    line-height: 1;
-}
 
 @media(max-width: 850px) {
     .titles {
         display: none;
     }
-
 }

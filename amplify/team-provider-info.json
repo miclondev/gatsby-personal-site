@@ -1,0 +1,14 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "gatsby-personal-site-prod-20190724091355-authRole",
+            "UnauthRoleArn": "arn:aws:iam::799078344438:role/gatsby-personal-site-prod-20190724091355-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::799078344438:role/gatsby-personal-site-prod-20190724091355-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "gatsby-personal-site-prod-20190724091355-deployment",
+            "UnauthRoleName": "gatsby-personal-site-prod-20190724091355-unauthRole",
+            "StackName": "gatsby-personal-site-prod-20190724091355",
+            "StackId": "arn:aws:cloudformation:eu-west-1:799078344438:stack/gatsby-personal-site-prod-20190724091355/381421b0-adda-11e9-8923-0a4e84363f34"
+        }
+    }
+}

@@ -1,12 +1,12 @@
 import React from 'react';
-import MenuIcon from './menu/MenuIcon';
 import styles from '../styles/menu.module.css';
+import { FaList,FaCloudDownloadAlt } from 'react-icons/fa';
 
 export default () => {
     return(
         <div className={styles.icons}>
-            <MenuIcon iconName="bars" iconText="Menu"/>
-            <MenuIcon iconName="download" iconText="CV"/>
+            <FaList/>
+            <FaCloudDownloadAlt/>
         </div>
     )
 }
