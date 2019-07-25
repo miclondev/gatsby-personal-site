@@ -1,0 +1,28 @@
+.main {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color : #FFF;
+    -webkit-box-shadow:5px 5px 10px 0px rgba(0,0,0,0.62);
+    -moz-box-shadow:5px 5px 10px 0px rgba(0,0,0,0.62);
+    box-shadow:5px 5px 10px 0px rgba(0,0,0,0.62);
+    span {
+        margin-bottom: 10px;
+        p {
+            font-weight: 400;
+        }
+    }
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 55px;
+    color: #11252c;
+    text-align: right;
+}
+
+.block {
+    text-align: right;
+}
