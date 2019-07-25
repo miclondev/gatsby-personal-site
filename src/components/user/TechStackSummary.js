@@ -12,8 +12,6 @@ const TechStack = () => (
                             <DiReact/>
                             <DiReact/>
                             <DiReact/>
-                            <DiReact/> 
-                            <DiReact/>
                         </span>
                         <a>more ..</a>
             </div>
@@ -21,8 +19,6 @@ const TechStack = () => (
             <div  className={styles.block}>
                     
                     <span className={styles.icons}>
-                    <DiNodejsSmall/>
-                    <DiNodejsSmall/>
                     <DiNodejsSmall/>
                     <DiNodejsSmall/>
                     <DiNodejsSmall/>

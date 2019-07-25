@@ -1,10 +1,11 @@
 .main {
-    padding: 10px 20px;
-    margin: 10px;
+    padding: 15px 48px 29px 41px;
+    margin: 30px 50px 10px 36px;
     background-color : #FFF;
-    -webkit-box-shadow:5px 5px 10px 0px rgba(0,0,0,0.62);
-    -moz-box-shadow:5px 5px 10px 0px rgba(0,0,0,0.62);
-    box-shadow:5px 5px 10px 0px rgba(0,0,0,0.62);
+    -webkit-box-shadow:16px 15px 0px 3px #11252c;
+    -moz-box-shadow:16px 15px 0px 3px#11252c;
+    box-shadow:16px 15px 0px 3px #11252c;
+    border: rgba(0, 0, 0, 0.2) 1px solid;
     span {
         margin-bottom: 10px;
         p {
@@ -18,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 55px;
+    font-size: 70px;
     color: #11252c;
     text-align: right;
 }
